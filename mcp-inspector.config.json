@@ -1,0 +1,21 @@
+{
+  "servers": [
+    {
+      "id": "lightning-tools",
+      "transport": "stdio",
+      "command": "python",
+      "args": ["/teamspace/studios/this_studio/mcp_demo/mcp_server.py"]
+    }
+  ],
+  "providers": [
+    {
+      "id": "lightning-tools",
+      "transport": {
+        "type": "stdio",
+        "command": "python",
+        "args": ["/teamspace/studios/this_studio/mcp_demo/mcp_server.py"]
+      }
+    }
+  ],
+  "inspector": { "host": "0.0.0.0", "port": 8900 }
+}
